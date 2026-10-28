@@ -1,7 +1,7 @@
 import "./App.css";
 import SummaryCard from "./Components/SummaryCard";
 import JobApplicationCard from "./Components/JobApplicationCard";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 function App() {
   // Job applications
@@ -27,7 +27,6 @@ function App() {
   ]);
 
   const [error, setError] = useState("");
-  const [isLoading, setIsLoading] = useState(false);
 
   // Login state
   const [email, setEmail] = useState("");
